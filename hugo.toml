@@ -1,5 +1,5 @@
 theme = 'hugo-theme-relearn'
 baseURL = 'https://listertech.uk/'
 languageCode = 'en-gb'
-title = 'My New Hugo Site'
+title = 'Sean Notes'
 
