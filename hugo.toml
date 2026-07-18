@@ -1,8 +1,12 @@
 baseURL = 'https://listertech.uk/'
 locale = 'en-us'
-title = 'Sean Lister'
+title = 'Sean Lister | Notes'
 
 
 theme = 'hugo-theme-relearn'
 [params]
   themeVariant = 'zen-dark'
+
+caches:
+  images:
+    dir: :cacheDir/images
