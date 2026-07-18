@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home :: Sean Lister</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>Face it This is an example site for the Relearn theme of the Hugo static site generator.&#xA;It displays content about the fictional ship The Purple Pulpo in English and a crude Piratish accent. Don’t take it too serious.&#xA;The goal with this site is to showcase a minimal example with as less configuration as possible. It is meant to be a starting point for your own website. The configuration files are documented to help you understand the reason behind certain settings.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible</title>
+      <link>http://localhost:1313/ansible/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ansible/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+    <item>
+      <title>Certificates</title>
+      <link>http://localhost:1313/certificates/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/certificates/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+    <item>
+      <title>Cisco ACI</title>
+      <link>http://localhost:1313/cisco-aci/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cisco-aci/index.html</guid>
+      <description>The Captain&#39;s Log</description>
+    </item>
+    <item>
+      <title>Omnissa</title>
+      <link>http://localhost:1313/omnissa/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/omnissa/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+    <item>
+      <title>SAN</title>
+      <link>http://localhost:1313/san/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/san/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+    <item>
+      <title>VMWare</title>
+      <link>http://localhost:1313/vmware/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vmware/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/windows/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/windows/index.html</guid>
+      <description>Overview of the ship</description>
+    </item>
+  </channel>
+</rss>

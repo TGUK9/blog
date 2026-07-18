@@ -1,0 +1,8 @@
+baseURL = 'https://listertech.uk/'
+locale = 'en-us'
+title = 'Sean Lister'
+
+
+theme = 'hugo-theme-relearn'
+[params]
+  themeVariant = 'zen-dark'
