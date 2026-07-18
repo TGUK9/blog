@@ -7,6 +7,6 @@ theme = 'hugo-theme-relearn'
 [params]
   themeVariant = 'zen-dark'
 
-caches:
-  images:
-    dir: :cacheDir/images
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
