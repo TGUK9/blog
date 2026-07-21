@@ -21,16 +21,16 @@ Similar to how digital certificates work for computers.
 
 If we go back to using a driver license as an example, it'll have multiple attributes to help identify you.
 
-[*] Your Name
-[*] Your Photo (Visual image of your identity, so it can be verified)
-[*] Exipration Date (Valid until 2030)
-[*] Issuer (DLVA/DMV)
+* Your Name
+* Your Photo (Visual image of your identity, so it can be verified)
+* Exipration Date (Valid until 2030)
+* Issuer (DLVA/DMV)
 
 A digital certificate has similar attributes.
 
-[*] Subject: The name of the Website (eg. barclays.co.uk)
-[*] Valid Dates: Start and end dates the certificate is valid between
-[*] Issuer: Who has signed to verify the identity of the subject.
+* Subject: The name of the Website (eg. barclays.co.uk)
+* Valid Dates: Start and end dates the certificate is valid between
+* Issuer: Who has signed to verify the identity of the subject.
 
 ### Why do we need Certificates?
 
@@ -52,8 +52,8 @@ You visit the bank website and get presented a certificate, you're browser then 
 
 If the certificate has passed the different checks mentioned preiosuly and been verified by a trusted certificate authority (CA), it'll establish a TLS connection and complete a key exchange.
 
-[*] Does the URL typed in the Browser match the certificate Subject name or Subject Alternative Name (SANs)
-[*] Date is valid and between start and end dates.
-[*] Check Issuer is CA trusted
-[*] Certificate isn't on a revoke list (CRLs or OCSP)
+* Does the URL typed in the Browser match the certificate Subject name or Subject Alternative Name (SANs)
+* Date is valid and between start and end dates.
+* Check Issuer is CA trusted
+* Certificate isn't on a revoke list (CRLs or OCSP)
 
