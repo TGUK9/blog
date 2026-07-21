@@ -11,38 +11,49 @@ weight = 2
 ## Overview
 
 
-Up in the Upper Decks, our lookout is either spotting treasure or taking an unauthorized nap in the Crow's Nest, while the helmsman tries to convince everyone that yes, that spinning wheel actually does something.
+### What is a certificates?
 
-In Midst Ship, the Captain's busy adding another gold tassel to their hat collection, and the crew quarters are hosting the weekly "Who Stole My Last Clean Sock" investigation.
+Imagine you get pulled over by police or you want to get access into an exclusive club.
 
-Down in Cargo, well... let's just say what the health inspector doesn't know won't hurt them. Between the mysteriously moving crates and that barrel of pickles that's been fermenting since the last century, it's quite an adventure.
+You maybe asked to show your ID Card or Driver's License? How do they know it's not fake or a counterfit? They VERIFY!
 
-## Map
+Similar to how digital certificates work for computers.
 
-````mermaid
-graph TD
-    A[The Purple Pulpo] --> B1[Upper Decks]
-    A --> B2[Midst Ship]
-    A --> B3[Cargo]
-    B1 --> C11[Crow's Nest]
-    B1 --> C12[The Helm]
-    B2 --> C21[Captain's Cabin]
-    B2 --> C22[Crew Quarters]
+If we go back to using a driver license as an example, it'll have multiple attributes to help identify you.
 
-    click B1 "upper" "View Upper Decks"
-    click B2 "midst" "View Midst Ship"
-    click B3 "cargo" "View Cargo"
-    click C11 "upper/nest" "View Crow's Nest"
-    click C12 "upper/helm" "View the Helm"
-    click C21 "midst/captain" "View the Captain's Cabin"
-    click C22 "midst/crew" "View the Crew Quarters"
+[*] Your Name
+[*] Your Photo (Visual image of your identity, so it can be verified)
+[*] Exipration Date (Valid until 2030)
+[*] Issuer (DLVA/DMV)
 
-    style A fill:mediumpurple,stroke:rebeccapurple,stroke-width:4px
-    style B1 fill:mediumvioletred,stroke:purple,stroke-width:4px
-    style C11 fill:mediumvioletred,stroke:purple,stroke-width:4px
-    style C12 fill:mediumvioletred,stroke:purple,stroke-width:4px
-    style B2 fill:dodgerblue,stroke:royalblue,stroke-width:4px
-    style C21 fill:dodgerblue,stroke:royalblue,stroke-width:4px
-    style C22 fill:dodgerblue,stroke:royalblue,stroke-width:4px
-    style B3 fill:darkturquoise,stroke:teal,stroke-width:4px
-````
+A digital certificate has similar attributes.
+
+[*] Subject: The name of the Website (eg. barclays.co.uk)
+[*] Valid Dates: Start and end dates the certificate is valid between
+[*] Issuer: Who has signed to verify the identity of the subject.
+
+### Why do we need Certificates?
+
+If you want to visit your bank website, you'll type in the URL of the bank. As soon as you type in the URL (www.barclays.co.uk).
+
+How do you know you are visiting the correct website and not someone incept and capture your login information? You need to verify the certificate present with a independent authoritiy, who are called certificate authorities. These can be seen as DLVA/DMV, as they are responsible for issuing digital certificates for your request domains.
+
+    Your browser has a list of know certificate authorities (CAs) these are globally trusted companies that meet the industry standards set by the CA/Browser Forum (https://cabforum.org/).
+
+    As well as abiding by the industry standards said by the CA/Browser Forum. It's required that security is held to the highest levels from regular independant strict audits and secure infrastructure with the use of offline hardware security modules (HSMs) along side your physical security. 
+
+You visit the bank website and get presented a certificate, you're browser then validates that the Subject mataches the URL for the certificate as well as ensuring the dates are correct. 
+
+    Your browser will also query the certificate for something we've not mentioned yet which are CRLs (Certificate Revoke List) or by OCSP (Online Certificate Status Protocol).
+
+    If a certificate is unable to reach the CRL or OCSP, the certificate will be deemed invalid and unstrusted depending on the settings of the client. These settings can be overridden if you ever see the "Skip Certificate Verification" option. (Not Recommended)
+
+### Certificate Verification
+
+If the certificate has passed the different checks mentioned preiosuly and been verified by a trusted certificate authority (CA), it'll establish a TLS connection and complete a key exchange.
+
+[*] Does the URL typed in the Browser match the certificate Subject name or Subject Alternative Name (SANs)
+[*] Date is valid and between start and end dates.
+[*] Check Issuer is CA trusted
+[*] Certificate isn't on a revoke list (CRLs or OCSP)
+

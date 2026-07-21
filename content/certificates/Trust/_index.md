@@ -1,6 +1,6 @@
 +++
 description = 'Why trust matters in Cyber Security'
-title = 'True'
+title = 'Trust'
 weight = 3
 +++
 
