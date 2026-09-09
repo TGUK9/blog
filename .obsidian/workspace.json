@@ -99,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/certificates/_index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/certificates/_index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/certificates/_index.en.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,9 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d5d226363f4f8aa",
+  "active": "c6491d7a5e07fecf",
   "lastOpenFiles": [
     "content/certificates/_index.en.md",
+    "conflict-files-obsidian-git.md",
     "content/ansible/upper/helm/_index.md",
     "content/ansible/_index.en.md",
     "content/ansible/cargo/_index.md"
