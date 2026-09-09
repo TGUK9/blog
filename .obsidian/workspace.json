@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8b1061cd16ee5a19",
+        "id": "f7673941dc333772",
         "type": "tabs",
         "children": [
           {
-            "id": "dfce8935050284f3",
+            "id": "5d5d226363f4f8aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/certificates/_index.en.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_index.en"
+              "title": "New tab"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/certificates/_index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/certificates/_index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/certificates/_index.en.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfce8935050284f3",
+  "active": "5d5d226363f4f8aa",
   "lastOpenFiles": [
+    "content/certificates/_index.en.md",
     "content/ansible/upper/helm/_index.md",
     "content/ansible/_index.en.md",
     "content/ansible/cargo/_index.md"

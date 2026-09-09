@@ -11,7 +11,7 @@ weight = 2
 ## Overview
 
 
-### What is a certificate??
+### What is a certificate?
 
 Imagine you get pulled over by police or you want to get access into an exclusive club.
 
