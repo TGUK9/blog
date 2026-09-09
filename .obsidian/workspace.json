@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "189ecf65dcd05da6",
+        "id": "8b1061cd16ee5a19",
         "type": "tabs",
         "children": [
           {
-            "id": "bd7ba9a4690a243f",
+            "id": "dfce8935050284f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -192,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd7ba9a4690a243f",
+  "active": "c6491d7a5e07fecf",
   "lastOpenFiles": [
     "content/ansible/upper/helm/_index.md",
     "content/ansible/_index.en.md",
